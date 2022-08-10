@@ -2129,3 +2129,45 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2022-08-10 10:09:28.917
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:44.263
+!MESSAGE Preparing classpath changed notification java8Example
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:44.266
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:44.273
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:44.285
+!MESSAGE buffering callback sts4.classpath.jPxgKxiK java8Example false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:44.289
+!MESSAGE Preparing classpath changed notification lambdaexp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:44.294
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:44.297
+!MESSAGE buffering callback sts4.classpath.jPxgKxiK lambdaexp true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:44.300
+!MESSAGE executing callback sts4.classpath.jPxgKxiK 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:44.312
+!MESSAGE executing callback sts4.classpath.jPxgKxiK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:59.591
+!MESSAGE Preparing classpath changed notification userdefinedfunctionalinterfaceexample
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:59.596
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:59.598
+!MESSAGE buffering callback sts4.classpath.jPxgKxiK userdefinedfunctionalinterfaceexample true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:59.601
+!MESSAGE executing callback sts4.classpath.jPxgKxiK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 10:36:59.607
+!MESSAGE executing callback sts4.classpath.jPxgKxiK SUCCESS [done]

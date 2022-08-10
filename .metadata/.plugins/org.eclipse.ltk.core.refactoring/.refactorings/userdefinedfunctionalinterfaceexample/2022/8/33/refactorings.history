@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.hexaware.java8examples.userdefinedfunctionalinterfaceexample&apos; to &apos;lambdaexp/src&apos;&#x0D;&#x0A;- Original project: &apos;userdefinedfunctionalinterfaceexample&apos;&#x0D;&#x0A;- Destination element: &apos;lambdaexp/src&apos;&#x0D;&#x0A;- Original element: &apos;userdefinedfunctionalinterfaceexample/src/com.hexaware.java8examples.userdefinedfunctionalinterfaceexample&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=lambdaexp/src" element1="/src&lt;com.hexaware.java8examples.userdefinedfunctionalinterfaceexample" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1660107957919" version="1.0"/>
+</session>
