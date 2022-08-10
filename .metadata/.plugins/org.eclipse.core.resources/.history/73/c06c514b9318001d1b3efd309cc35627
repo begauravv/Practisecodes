@@ -1,0 +1,52 @@
+package com.hexaware.java8examples.practicequestion;
+
+
+public class Sellerpojo {
+ int Sellerid;
+ String Sellername;
+ String Selleremail;
+ public int getSellerid() {
+  return Sellerid;
+ }
+ public void setSellerid(int sellerid) {
+  Sellerid = sellerid;
+ }
+ public String getSellername() {
+  return Sellername;
+ }
+ public void setSellername(String sellername) {
+  Sellername = sellername;
+ }
+ public String getSelleremail() {
+  return Selleremail;
+ }
+ public void setSelleremail(String selleremail) {
+  Selleremail = selleremail;
+ }
+ public String getSellerLocation() {
+  return SellerLocation;
+ }
+ public void setSellerLocation(String sellerLocation) {
+  SellerLocation = sellerLocation;
+ }
+ String SellerLocation;
+  // TODO Auto-generated method stub
+ public void Sellername(String string) {
+  // TODO Auto-generated method stub
+  
+ }
+ public void Selleremail(String string) {
+  // TODO Auto-generated method stub
+  
+ }
+ public void SellerLocation(String string) {
+  // TODO Auto-generated method stub
+  
+ }
+ public void Sellerid(int i) {
+  // TODO Auto-generated method stub
+  
+ }
+	
+
+}

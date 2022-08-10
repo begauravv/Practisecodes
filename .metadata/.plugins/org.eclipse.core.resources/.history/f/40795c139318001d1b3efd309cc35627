@@ -1,0 +1,102 @@
+package com.hexaware.java8examples.practicequestion;
+/*
+import java.util.ArrayList;
+import java.util.stream.Stream;
+
+public class Seller {
+	
+	
+   private int sellerId;
+   private String sellerName;
+   private String sellerEmail;
+   private String sellerLocation;
+
+	public Seller(int id, String n, String e, String l){
+
+            sellerId  = id;
+            sellerName = n;
+            sellerEmail = e;
+            sellerLocation= l;
+        }
+	
+	public static void main(String args[])
+	{
+		ArrayList<Seller> list  = AddingSeller.addelements();
+		DisplayingSeller.display(list);
+	}
+}
+*/
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Seller {
+
+ public static void main(String[] args) {
+  // TODO Auto-generated method stub
+  Sellerpojo obj = new Sellerpojo();
+  List<String> list = new ArrayList<>();
+  obj.setSellerid(1);
+  obj.setSellername("Gaurav");
+  obj.setSelleremail("g@gamil.com");
+  obj.setSellerLocation("Lucknow");
+  
+  list.add(String.valueOf(obj.Sellerid));
+  list.add(obj.Sellername);
+  list.add(obj.Selleremail);
+  list.add(obj.SellerLocation);
+  
+  obj.setSellerid(2);
+  obj.setSellername("G1");
+  obj.setSelleremail("g1@gamil.com");
+  obj.setSellerLocation("Delhi");
+  
+  list.add(String.valueOf(obj.Sellerid));
+  list.add(obj.Sellername);
+  list.add(obj.Selleremail);
+  list.add(obj.SellerLocation);
+  
+  obj.setSellerid(3);
+  obj.setSellername("G2");
+  obj.setSelleremail("G2@gamil.com");
+  obj.setSellerLocation("Noida");
+  
+  list.add(String.valueOf(obj.Sellerid));
+  list.add(obj.Sellername);
+  list.add(obj.Selleremail);
+  list.add(obj.SellerLocation);
+  
+  System.out.println("Displaying elements");
+  list.stream()
+  .forEach(System.out::println);
+  
+  
+  
+  /*
+  
+  System.out.println("Sellerid: " +obj.getSellerid());
+  System.out.println("Sellername: " +obj.getSellername());
+  System.out.println("Selleremail : " +obj.getSelleremail());
+  System.out.println("SellerLocation : " +obj.getSellerLocation());
+  
+  */
+  
+  
+  /*List<String> SellerNames = new ArrayList<>();
+  SellerNames.add("Bhuvana");
+  SellerNames.add("chandra");
+  SellerNames.add("suresh"); 
+  SellerNames.add("ramesh");
+  SellerNames.add("raina");
+  SellerNames.add("Prane");
+  
+  SellerNames.stream()
+  .forEach(System.out::println);
+  
+  
+  SellerNames.stream()  
+  .filter(Name -> Name != "raina") 
+  .forEach(System.out::println);*/
+ }
+}

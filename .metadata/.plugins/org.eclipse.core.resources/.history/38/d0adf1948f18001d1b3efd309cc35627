@@ -1,0 +1,20 @@
+package com.hexaware.java8examples.practicequestion;
+
+import java.util.ArrayList;
+
+public class AddingSeller {
+	 
+	public static ArrayList<Seller> addelements() {
+		ArrayList<Seller> sellerList = new ArrayList<Seller>();
+		Seller obj = new Seller(1,"Gaurav","g@gmail.com","Lucknow");
+		Seller obj1 = new Seller(2,"Bhuvana","bh@gmail.com","Hyderabad");
+		Seller obj2 = new Seller(3,"Vishwas","v@gmail.com","Delhi");
+		Seller obj3 = new Seller(4,"Vyankatesh","vy@gmail.com","Noida");
+		sellerList.add(obj);
+		sellerList.add(obj1);
+		sellerList.add(obj2);
+		sellerList.add(obj3);
+		return sellerList;
+	}
+	
+}

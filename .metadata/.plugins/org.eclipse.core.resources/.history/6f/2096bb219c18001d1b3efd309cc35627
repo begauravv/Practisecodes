@@ -1,0 +1,15 @@
+package com.hexaware.java8examples.practicequestion;
+public class Main {
+
+	public static void main(String[] args) {
+		AddingSeller obj = new AddingSeller();
+		
+		obj.addingelements();
+		obj.display();
+	obj.addNewSeller(5, "G5", "G5@gmail.com", "Mumbai");
+	//	obj.deleteById(2);
+	//	obj.displayByLocation("Lucknow");
+	//	obj.updateById(5, "G5", "Pune", "G5@gamil.com");
+	// remove comment from a functionality you want to implement	
+	}
+}

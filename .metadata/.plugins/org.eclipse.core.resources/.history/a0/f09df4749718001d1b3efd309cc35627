@@ -1,0 +1,59 @@
+package com.hexaware.java8examples.practicequestion;
+import java.util.ArrayList;
+import java.util.stream.Stream;
+
+public class Seller {
+	
+	
+   private int sellerId;
+   private String sellerName;
+   private String sellerEmail;
+   private String sellerLocation;
+
+	public Seller(int id, String n, String e, String l){
+
+            sellerId  = id;
+            sellerName = n;
+            sellerEmail = e;
+            sellerLocation= l;
+        }
+	
+	public int getSellerId() {
+		return sellerId;
+	}
+
+	public void setSellerId(int sellerId) {
+		this.sellerId = sellerId;
+	}
+
+	public String getSellerName() {
+		return sellerName;
+	}
+
+	public void setSellerName(String sellerName) {
+		this.sellerName = sellerName;
+	}
+
+	public String getSellerEmail() {
+		return sellerEmail;
+	}
+
+	public void setSellerEmail(String sellerEmail) {
+		this.sellerEmail = sellerEmail;
+	}
+
+	public String getSellerLocation() {
+		return sellerLocation;
+	}
+
+	public void setSellerLocation(String sellerLocation) {
+		this.sellerLocation = sellerLocation;
+	}
+
+	public static void main(String args[])
+	{
+		ArrayList<Seller> list  = AddingSeller.addelements();
+	    DisplayingSeller.display(list.toString());
+	}
+	}
+

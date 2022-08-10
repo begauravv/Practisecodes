@@ -1,0 +1,16 @@
+package com.hexaware.java8examples.practicequestion;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DisplayingSeller {
+	public static void display(ArrayList<Seller> l1) {
+		l1.stream().forEach(streamValue -> {
+			streamValue.toString();
+			System.out.println(streamValue);
+			}
+			);
+	}
+			
+
+}

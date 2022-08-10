@@ -1,0 +1,12 @@
+package com.hexaware.java8examples.practicequestion;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DisplayingSeller {
+	public static void display(String l1) {
+		System.out.print(b);
+	}
+			
+
+}
